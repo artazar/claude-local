@@ -1,0 +1,30 @@
+# Block everything by default
+*
+
+# --- Allowlist ---
+
+# Top-level files
+!*.md
+!settings.json
+!.gitignore
+
+# Directories (need both the dir and its contents)
+!commands/
+commands/**
+!commands/**
+
+!skills/
+skills/**
+!skills/**
+
+!agents/
+agents/**
+!agents/**
+
+!hooks/
+hooks/**
+!hooks/**
+
+!rules/
+rules/**
+!rules/**
