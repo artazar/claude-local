@@ -7,6 +7,7 @@
 !*.md
 !settings.json
 !.gitignore
+!git-sync.sh
 
 # Directories (need both the dir and its contents)
 !commands/
