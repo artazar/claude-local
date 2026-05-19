@@ -8,6 +8,7 @@
 !settings.json
 !.gitignore
 !git-sync.sh
+!Makefile
 
 # Directories (need both the dir and its contents)
 !commands/
