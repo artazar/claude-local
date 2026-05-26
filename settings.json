@@ -21,7 +21,8 @@
       "Bash(mkdir *)",
       "Bash(cp *)",
       "Bash(mv *)",
-      "mcp__context-mode__*"
+      "mcp__context-mode__*",
+      "mcp__axme-code__*"
     ],
     "deny": [
       "Read(.env)",
