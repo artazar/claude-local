@@ -108,6 +108,5 @@
   "alwaysThinkingEnabled": false,
   "effortLevel": "xhigh",
   "autoMemoryEnabled": true,
-  "theme": "light-daltonized",
-  "model": "opus"
+  "theme": "light-daltonized"
 }
