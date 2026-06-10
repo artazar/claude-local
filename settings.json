@@ -65,7 +65,8 @@
     "telegram@claude-plugins-official": true,
     "atlassian@claude-plugins-official": true,
     "slack@claude-plugins-official": true,
-    "axme-code@claude-community": true
+    "axme-code@claude-community": true,
+    "andrej-karpathy-skills@karpathy-skills": true
   },
   "extraKnownMarketplaces": {
     "everything-claude-code": {
@@ -102,6 +103,12 @@
       "source": {
         "source": "github",
         "repo": "anthropics/claude-plugins-community"
+      }
+    },
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
       }
     }
   },
