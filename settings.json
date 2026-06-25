@@ -122,5 +122,6 @@
   "alwaysThinkingEnabled": false,
   "effortLevel": "xhigh",
   "autoMemoryEnabled": true,
-  "theme": "light-daltonized"
+  "theme": "light-daltonized",
+  "tui": "fullscreen"
 }
