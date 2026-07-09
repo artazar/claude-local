@@ -121,7 +121,8 @@
   },
   "alwaysThinkingEnabled": false,
   "effortLevel": "xhigh",
+  "tui": "fullscreen",
   "autoMemoryEnabled": true,
   "theme": "light-daltonized",
-  "tui": "fullscreen"
+  "model": "claude-fable-5[1m]"
 }
