@@ -37,6 +37,7 @@
     ],
     "defaultMode": "acceptEdits"
   },
+  "model": "opus",
   "hooks": {
     "PreToolUse": [
       {
@@ -120,9 +121,8 @@
     }
   },
   "alwaysThinkingEnabled": false,
-  "effortLevel": "xhigh",
+  "effortLevel": "high",
   "tui": "fullscreen",
   "autoMemoryEnabled": true,
-  "theme": "light-daltonized",
-  "model": "claude-fable-5[1m]"
+  "theme": "light-daltonized"
 }
