@@ -131,5 +131,6 @@
   "effortLevel": "high",
   "tui": "fullscreen",
   "autoMemoryEnabled": true,
-  "theme": "light-daltonized"
+  "theme": "light-daltonized",
+  "switchModelsOnFlag": true
 }
