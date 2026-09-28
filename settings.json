@@ -125,6 +125,12 @@
         "source": "github",
         "repo": "dodopayments/dodo-agent-plugin"
       }
+    },
+    "brag": {
+      "source": {
+        "source": "github",
+        "repo": "latent-spaces/brag"
+      }
     }
   },
   "alwaysThinkingEnabled": false,
