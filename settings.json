@@ -69,7 +69,8 @@
     "axme-code@claude-community": true,
     "andrej-karpathy-skills@karpathy-skills": true,
     "ponytail@ponytail": true,
-    "dodopayments@dodopayments": true
+    "dodopayments@dodopayments": true,
+    "brag@brag": true
   },
   "extraKnownMarketplaces": {
     "everything-claude-code": {
