@@ -59,7 +59,6 @@
     "gopls-lsp@claude-plugins-official": true,
     "everything-claude-code@everything-claude-code": true,
     "context-mode@context-mode": true,
-    "mgrep@Mixedbread-Grep": true,
     "caveman@caveman": true,
     "superpowers@claude-plugins-official": true,
     "code-simplifier@claude-plugins-official": true,
