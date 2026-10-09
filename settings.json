@@ -70,7 +70,8 @@
     "ponytail@ponytail": true,
     "dodopayments@dodopayments": true,
     "brag@brag": true,
-    "paddle@claude-community": true
+    "paddle@claude-community": true,
+    "aws-core@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "everything-claude-code": {
