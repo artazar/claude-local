@@ -71,7 +71,8 @@
     "dodopayments@dodopayments": true,
     "brag@brag": true,
     "paddle@claude-community": true,
-    "aws-core@claude-plugins-official": true
+    "aws-core@claude-plugins-official": true,
+    "sub-meter@better-claude": true
   },
   "extraKnownMarketplaces": {
     "everything-claude-code": {
@@ -133,6 +134,12 @@
         "source": "github",
         "repo": "latent-spaces/brag"
       }
+    },
+    "better-claude": {
+      "source": {
+        "source": "github",
+        "repo": "midudev/better-claude"
+      }
     }
   },
   "alwaysThinkingEnabled": false,
@@ -140,5 +147,12 @@
   "tui": "fullscreen",
   "autoMemoryEnabled": true,
   "theme": "light-daltonized",
-  "switchModelsOnFlag": true
+  "switchModelsOnFlag": true,
+  "pluginConfigs": {
+    "sub-meter@better-claude": {
+      "options": {
+        "hideCycleHint": true
+      }
+    }
+  }
 }
