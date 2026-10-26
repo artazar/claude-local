@@ -22,7 +22,8 @@
       "Bash(cp *)",
       "Bash(mv *)",
       "mcp__context-mode__*",
-      "mcp__axme-code__*"
+      "mcp__axme-code__*",
+      "Read(.env.example)"
     ],
     "deny": [
       "Read(.env)",
