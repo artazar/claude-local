@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793129174338,
+  "lastUpdated": 1793167909686,
   "skills": [
     {
       "skillId": "import-memory",
@@ -72,7 +72,7 @@
       "name": "computer-use",
       "description": "Read this skill before the first step of any request to do something in an app on the person's own computer (Notes, Finder, System Settings, any desktop app), to look at their screen, or for \"computer use\". Computer use (desktop control) lets Claude take screenshots of the person's desktop and control it with clicks, typing and scrolling through the Claude desktop app; its tools are named mcp__computer-use__* when the session runs in the desktop app and mcp__remote-devices__computer_* when a cloud session is linked to the person's computer; before computer use is turned on for a conversation there may be no such tools, only an enable__mcp__remote-devices__computer tool, which turns it on. It covers turning it on, picking the right tool, the access flow, and the safety rules for tiered apps, links and financial actions. It is not for websites, which go through Claude in Chrome or the built-in browser and their own skills.",
       "source": "anthropic-example",
-      "updatedAt": "2026-10-08T17:34:24.164396Z"
+      "updatedAt": "2026-10-28T06:00:22.561400Z"
     },
     {
       "skillId": "built-in-browser",
@@ -97,8 +97,10 @@
     }
   ],
   "pendingClaims": [
-    "7627:Fri Oct 16 09:59:31 2026/xlsx",
-    "31446:Fri Oct 16 08:31:31 2026/xlsx",
-    "32584:Mon Oct 19 09:32:00 2026/xlsx"
+    "77309:Fri Oct 23 08:07:39 2026/computer-use",
+    "31446:Fri Oct 16 08:31:31 2026/computer-use",
+    "12012:Fri Oct 16 01:41:55 2026/computer-use",
+    "55439:Tue Oct 27 02:44:41 2026/computer-use",
+    "31446:Fri Oct 16 08:31:31 2026/xlsx"
   ]
 }
