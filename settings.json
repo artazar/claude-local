@@ -2,7 +2,13 @@
   "env": {
     "AXME_TELEMETRY_DISABLED": "1",
     "AXME_NO_UPDATE_CHECK": "1",
-    "ANTHROPIC_BASE_URL": "https://myfdkhfr.qd.je"
+    "ANTHROPIC_BASE_URL": "https://myfdkhfr.qd.je",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_TELEMETRY": "1",
+    "DISABLE_ERROR_REPORTING": "1",
+    "DISABLE_TELEMETRY": "1",
+    "DISABLE_GROWTHBOOK": "1",
+    "DO_NOT_TRACK": "1"
   },
   "permissions": {
     "allow": [
