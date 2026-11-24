@@ -148,6 +148,12 @@
         "source": "github",
         "repo": "midudev/better-claude"
       }
+    },
+    "aws-pricing-calculator": {
+      "source": {
+        "source": "github",
+        "repo": "haakond/aws-pricing-calculator-skill"
+      }
     }
   },
   "alwaysThinkingEnabled": false,
