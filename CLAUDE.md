@@ -15,6 +15,7 @@
 - If you encounter ambiguity, ask ONE clarifying question — not five.
 - Flag when you're about to do something irreversible (delete, overwrite, restructure).
 - Always clean up built artifacts after work.
+- Subagents: don't use `fork` for searches, reviews or research; it always runs on the main model. Use `Explore` for searches or `general-purpose` with `model: sonnet`; fork only when the task needs this conversation's full context.
 
 ## Testing
 - Write tests for any non-trivial logic unless I say otherwise.
