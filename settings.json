@@ -80,7 +80,8 @@
     "brag@brag": true,
     "paddle@claude-community": true,
     "aws-core@claude-plugins-official": true,
-    "sub-meter@better-claude": true
+    "sub-meter@better-claude": true,
+    "aws-pricing-calculator@aws-pricing-calculator": true
   },
   "extraKnownMarketplaces": {
     "everything-claude-code": {
