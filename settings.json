@@ -5,6 +5,8 @@
     "ANTHROPIC_BASE_URL": "https://myfdkhfr.qd.je",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
     "CLAUDE_CODE_DISABLE_TELEMETRY": "1",
+    "CLAUDE_CODE_AUTO_CONNECT_IDE": "0",
+    "CLAUDE_CODE_ENABLE_AWAY_SUMMARY": "0",
     "DISABLE_ERROR_REPORTING": "1",
     "DISABLE_TELEMETRY": "1",
     "DISABLE_GROWTHBOOK": "1",
@@ -19,8 +21,6 @@
       "Grep",
       "Bash(git *)",
       "Bash(npm *)",
-      "Bash(node *)",
-      "Bash(python *)",
       "Bash(pytest *)",
       "Bash(ls *)",
       "Bash(cat *)",
@@ -176,5 +176,45 @@
   "autoMemoryEnabled": true,
   "theme": "light-daltonized",
   "autoCompactEnabled": true,
-  "switchModelsOnFlag": true
+  "switchModelsOnFlag": true,
+  "autoMode": {
+    "allow": [
+      "$defaults",
+      "Bash(uv run *) in /Users/artazar/git/artazar/mira-ai",
+      "Bash(rtk *) in /Users/artazar/git/artazar/mira-ai",
+      "Bash(mira trace *) in /Users/artazar/git/artazar/mira-ai",
+      "Bash(mira replay *) in /Users/artazar/git/artazar/mira-ai"
+    ],
+    "soft_deny": [
+      "$defaults",
+      "Bash(*) writes to deploy/profiles/prod.env or deploy/.env in /Users/artazar/git/artazar/mira-ai",
+      "Bash(ssh-add *) in /Users/artazar/git/artazar/mira-ai"
+    ],
+    "environment": [
+      "### Org-wide",
+      "**Organization**: None configured",
+      "**Cloud provider(s)**: None configured",
+      "**Repository visibility**: Not queryable here (gh unavailable) — infer from remote host github.com:artazar/mira-ai.git; treat as unverified — possibly public, scope commits/pushes to this repo as for a public destination until confirmed",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**Secrets management**: Environment variables only (per CLAUDE.md); CI secrets DEPLOY_KNOWN_HOSTS, DEPLOY_SSH_KEY, GITHUB_TOKEN referenced by name only in CI config — no values seen",
+      "**Default / protected branches**: Not queryable here (gh unavailable) — default branch unknown (origin/HEAD unset); protection status unknown",
+      "**CI/CD deploy targets**: None configured beyond this repo's .github/workflows and deploy/ directory (deploy/docker-compose.yml, deploy/egress/egress.sh, deploy/profiles/prod.env) — no external target names confirmed",
+      "**Network posture**: None configured",
+      "**Host containment**: None configured — assume ordinary developer machine with open internet",
+      "**Source control**: The trusted repo (artazar/mira-ai on github.com) and its origin remote only — no additional orgs configured",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: None configured",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Sensitive data locations & audiences**: PII-related code paths in this repo — app/agent/kb/ingest_pii.py, app/agent/tools/pii.py, app/gateway/hooks/pii.py, docs/integrations/pii-tilda-bitrix24.md, tests/tools/test_pii_tool.py, tests/llm/test_egress_proxy.py; .env, deploy/.env, deploy/.env.example, deploy/profiles/prod.env (secrets/config, never to be committed); per CLAUDE.md, no personal data may appear in any LLM request, log, trace, fixture or committed file",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or segment — note deploy/profiles/prod.env in this repo matches this pattern",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic (k8s namespace `deploy` seen in usage does not itself carry a prod marker)",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or segment",
+      "### User-specific",
+      "**Primary use of Claude Code**: software development (Mira AI agent system)",
+      "**Trusted repo**: /Users/artazar/git/artazar/mira-ai (origin github.com:artazar/mira-ai.git) — treat as possibly public (visibility unverified); only this repo's own work should be pushed there, and secrets/PII are never cleared into it regardless of visibility",
+      "**Org-specific CLIs**: rtk (17×, project-specific CLI referenced via @RTK.md in user CLAUDE.md), uv (34×, Python toolchain, not org-specific), mira CLI (mira trace, mira replay — project-specific, routine within this repo)"
+    ]
+  }
 }
